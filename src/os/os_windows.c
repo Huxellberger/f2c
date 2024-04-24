@@ -46,7 +46,6 @@ static U64
 os_microseconds(void)
 {
 	LARGE_INTEGER t, f;
-	double elapsed;
 
 	QueryPerformanceCounter(&t);
 	QueryPerformanceFrequency(&f);
